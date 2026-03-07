@@ -26,6 +26,7 @@
       <DesktopSettings>
         <SourceLocation DefaultValue="https://localhost:3000/taskpane.html" />
         <RequestedHeight>250</RequestedHeight>
+        <Pinned>true</Pinned>
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -60,7 +61,7 @@
                     <bt:Image size="32" resid="Icon.32x32" />
                     <bt:Image size="80" resid="Icon.80x80" />
                   </Icon>
-                  <Action xsi:type="ShowTaskpane">
+                  <Action xsi:type="ShowTaskpane" Pinned="true">
                     <SourceLocation resid="Taskpane.Url" />
                   </Action>
                 </Control>
